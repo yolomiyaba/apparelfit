@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F39D1E92A83931B00707B50 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F39D1E82A83931B00707B50 /* ItemCell.swift */; };
+		4F7AA8FD2A71150C005A0533 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AA8FC2A71150C005A0533 /* MainTabController.swift */; };
+		4F7AA8FF2A71186E005A0533 /* FittingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AA8FE2A71186D005A0533 /* FittingController.swift */; };
+		4F7AA9012A714DBC005A0533 /* ShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AA9002A714DBC005A0533 /* ShopController.swift */; };
+		4F7AA9032A714EED005A0533 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AA9022A714EED005A0533 /* ProfileController.swift */; };
+		4F7AA9052A71552A005A0533 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AA9042A71552A005A0533 /* Extensions.swift */; };
+		4F8382822A67B9EE002C10EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F8382812A67B9ED002C10EA /* GoogleService-Info.plist */; };
+		90CDB3EC7BFA18C9EB7EDFB6 /* Pods_apparelfit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D76B2C8F9BB1468F9A7531 /* Pods_apparelfit.framework */; };
+		D6035A12285385FE009100AF /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6035A10285385FE009100AF /* ListTableViewCell.swift */; };
+		D6035A13285385FE009100AF /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6035A11285385FE009100AF /* ListTableViewCell.xib */; };
+		D6035A1528539F02009100AF /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6035A1428539F02009100AF /* MainScreenViewController.swift */; };
+		D620BBCA2855C65900B15385 /* FirstTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620BBC92855C65900B15385 /* FirstTimeViewController.swift */; };
+		D625266C28758EDD008CB783 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625266B28758EDD008CB783 /* CGRectExtension.swift */; };
+		D63C4C1A2885BED800CE0478 /* TestShirtCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C4C182885BED800CE0478 /* TestShirtCollectionViewCell.swift */; };
+		D63C4C1B2885BED800CE0478 /* TestShirtCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D63C4C192885BED800CE0478 /* TestShirtCollectionViewCell.xib */; };
+		D64AB2BC28902E2F00477E1A /* degrassi.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D64AB2BB28902E2E00477E1A /* degrassi.regular.ttf */; };
+		D64AB2BF2890400F00477E1A /* help1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D64AB2BD2890400E00477E1A /* help1.jpg */; };
+		D64AB2C02890400F00477E1A /* help2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D64AB2BE2890400E00477E1A /* help2.PNG */; };
 		D650C896284B98CA007C5FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650C895284B98CA007C5FB2 /* AppDelegate.swift */; };
 		D650C898284B98CA007C5FB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650C897284B98CA007C5FB2 /* SceneDelegate.swift */; };
-		D650C89A284B98CA007C5FB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650C899284B98CA007C5FB2 /* ViewController.swift */; };
+		D650C89A284B98CA007C5FB2 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650C899284B98CA007C5FB2 /* ListTableViewController.swift */; };
 		D650C89D284B98CA007C5FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D650C89B284B98CA007C5FB2 /* Main.storyboard */; };
 		D650C89F284B98CB007C5FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D650C89E284B98CB007C5FB2 /* Assets.xcassets */; };
-		D650C8A2284B98CB007C5FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D650C8A0284B98CB007C5FB2 /* LaunchScreen.storyboard */; };
 		D650C8AD284B98CB007C5FB2 /* apparelfitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650C8AC284B98CB007C5FB2 /* apparelfitTests.swift */; };
 		D650C8B7284B98CB007C5FB2 /* apparelfitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650C8B6284B98CB007C5FB2 /* apparelfitUITests.swift */; };
 		D650C8B9284B98CB007C5FB2 /* apparelfitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650C8B8284B98CB007C5FB2 /* apparelfitUITestsLaunchTests.swift */; };
+		D69339F628840329008A5E75 /* TestPantsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69339F428840329008A5E75 /* TestPantsCollectionViewCell.swift */; };
+		D69339F728840329008A5E75 /* TestPantsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D69339F528840329008A5E75 /* TestPantsCollectionViewCell.xib */; };
+		D6A154972882E29D002DBA36 /* flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A154962882E29D002DBA36 /* flow.swift */; };
+		D6A154992882EE81002DBA36 /* ImageUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A154982882EE81002DBA36 /* ImageUrl.swift */; };
+		D6B6CA19288C235D0011CE3B /* Ronde.otf in Resources */ = {isa = PBXBuildFile; fileRef = D6B6CA18288C1F990011CE3B /* Ronde.otf */; };
+		D6B6CA1B288C2F2F0011CE3B /* helpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B6CA1A288C2F2F0011CE3B /* helpViewController.swift */; };
+		D6FF451A289145B200143221 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FF4519289145B200143221 /* Launch Screen.storyboard */; };
+		D6FF451C2891463500143221 /* iphone6_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = D6FF451B2891463500143221 /* iphone6_splash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +61,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F39D1E82A83931B00707B50 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		4F7AA8FC2A71150C005A0533 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		4F7AA8FE2A71186D005A0533 /* FittingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FittingController.swift; sourceTree = "<group>"; };
+		4F7AA9002A714DBC005A0533 /* ShopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopController.swift; sourceTree = "<group>"; };
+		4F7AA9022A714EED005A0533 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		4F7AA9042A71552A005A0533 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4F8382812A67B9ED002C10EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		83D76B2C8F9BB1468F9A7531 /* Pods_apparelfit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apparelfit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C61D3CABDFFB2FCE12E1BD /* Pods-apparelfit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apparelfit.debug.xcconfig"; path = "Target Support Files/Pods-apparelfit/Pods-apparelfit.debug.xcconfig"; sourceTree = "<group>"; };
+		D6035A10285385FE009100AF /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		D6035A11285385FE009100AF /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		D6035A1428539F02009100AF /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		D620BBC92855C65900B15385 /* FirstTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTimeViewController.swift; sourceTree = "<group>"; };
+		D625266B28758EDD008CB783 /* CGRectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectExtension.swift; sourceTree = "<group>"; };
+		D63C4C182885BED800CE0478 /* TestShirtCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShirtCollectionViewCell.swift; sourceTree = "<group>"; };
+		D63C4C192885BED800CE0478 /* TestShirtCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestShirtCollectionViewCell.xib; sourceTree = "<group>"; };
+		D64AB2BB28902E2E00477E1A /* degrassi.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = degrassi.regular.ttf; sourceTree = "<group>"; };
+		D64AB2BD2890400E00477E1A /* help1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = help1.jpg; sourceTree = "<group>"; };
+		D64AB2BE2890400E00477E1A /* help2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help2.PNG; sourceTree = "<group>"; };
 		D650C892284B98CA007C5FB2 /* apparelfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apparelfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D650C895284B98CA007C5FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D650C897284B98CA007C5FB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D650C899284B98CA007C5FB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D650C899284B98CA007C5FB2 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		D650C89C284B98CA007C5FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D650C89E284B98CB007C5FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D650C8A1284B98CB007C5FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D650C8A3284B98CB007C5FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D650C8A8284B98CB007C5FB2 /* apparelfitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apparelfitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D650C8AC284B98CB007C5FB2 /* apparelfitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apparelfitTests.swift; sourceTree = "<group>"; };
 		D650C8B2284B98CB007C5FB2 /* apparelfitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apparelfitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D650C8B6284B98CB007C5FB2 /* apparelfitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apparelfitUITests.swift; sourceTree = "<group>"; };
 		D650C8B8284B98CB007C5FB2 /* apparelfitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apparelfitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D69339F428840329008A5E75 /* TestPantsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPantsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D69339F528840329008A5E75 /* TestPantsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestPantsCollectionViewCell.xib; sourceTree = "<group>"; };
+		D6A154962882E29D002DBA36 /* flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flow.swift; sourceTree = "<group>"; };
+		D6A154982882EE81002DBA36 /* ImageUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUrl.swift; sourceTree = "<group>"; };
+		D6B6CA18288C1F990011CE3B /* Ronde.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ronde.otf; sourceTree = "<group>"; };
+		D6B6CA1A288C2F2F0011CE3B /* helpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpViewController.swift; sourceTree = "<group>"; };
+		D6FF4519289145B200143221 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D6FF451B2891463500143221 /* iphone6_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone6_splash.png; sourceTree = "<group>"; };
+		F6F4BD0438886A9A7B84DC76 /* Pods-apparelfit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apparelfit.release.xcconfig"; path = "Target Support Files/Pods-apparelfit/Pods-apparelfit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CDB3EC7BFA18C9EB7EDFB6 /* Pods_apparelfit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +129,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BD9AE2FD328E8A25963BCCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83D76B2C8F9BB1468F9A7531 /* Pods_apparelfit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F39D1E72A8392EB00707B50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F39D1E82A83931B00707B50 /* ItemCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F39D1EA2A83937100707B50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4F7AA8FC2A71150C005A0533 /* MainTabController.swift */,
+				4F7AA9022A714EED005A0533 /* ProfileController.swift */,
+				4F7AA8FE2A71186D005A0533 /* FittingController.swift */,
+				4F7AA9002A714DBC005A0533 /* ShopController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4F39D1EB2A83939600707B50 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4F7AA9042A71552A005A0533 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4F39D1EC2A8393AB00707B50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F39D1ED2A8393CF00707B50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4F39D1EE2A8393DC00707B50 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B14C5E7799C0AB035A133366 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9C61D3CABDFFB2FCE12E1BD /* Pods-apparelfit.debug.xcconfig */,
+				F6F4BD0438886A9A7B84DC76 /* Pods-apparelfit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D650C889284B98CA007C5FB2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +201,8 @@
 				D650C8AB284B98CB007C5FB2 /* apparelfitTests */,
 				D650C8B5284B98CB007C5FB2 /* apparelfitUITests */,
 				D650C893284B98CA007C5FB2 /* Products */,
+				B14C5E7799C0AB035A133366 /* Pods */,
+				0BD9AE2FD328E8A25963BCCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +219,37 @@
 		D650C894284B98CA007C5FB2 /* apparelfit */ = {
 			isa = PBXGroup;
 			children = (
+				4F39D1EE2A8393DC00707B50 /* API */,
+				4F39D1ED2A8393CF00707B50 /* ViewModel */,
+				4F39D1EC2A8393AB00707B50 /* Model */,
+				4F39D1EB2A83939600707B50 /* Utils */,
+				4F39D1EA2A83937100707B50 /* Controller */,
+				4F39D1E72A8392EB00707B50 /* View */,
+				D650C89B284B98CA007C5FB2 /* Main.storyboard */,
+				D6FF4519289145B200143221 /* Launch Screen.storyboard */,
+				D63C4C192885BED800CE0478 /* TestShirtCollectionViewCell.xib */,
+				D69339F528840329008A5E75 /* TestPantsCollectionViewCell.xib */,
+				D6035A11285385FE009100AF /* ListTableViewCell.xib */,
 				D650C895284B98CA007C5FB2 /* AppDelegate.swift */,
 				D650C897284B98CA007C5FB2 /* SceneDelegate.swift */,
-				D650C899284B98CA007C5FB2 /* ViewController.swift */,
-				D650C89B284B98CA007C5FB2 /* Main.storyboard */,
+				D620BBC92855C65900B15385 /* FirstTimeViewController.swift */,
+				D6035A1428539F02009100AF /* MainScreenViewController.swift */,
+				D63C4C182885BED800CE0478 /* TestShirtCollectionViewCell.swift */,
+				D69339F428840329008A5E75 /* TestPantsCollectionViewCell.swift */,
+				D650C899284B98CA007C5FB2 /* ListTableViewController.swift */,
+				D6035A10285385FE009100AF /* ListTableViewCell.swift */,
+				D6B6CA1A288C2F2F0011CE3B /* helpViewController.swift */,
+				D6A154962882E29D002DBA36 /* flow.swift */,
+				D625266B28758EDD008CB783 /* CGRectExtension.swift */,
+				D6A154982882EE81002DBA36 /* ImageUrl.swift */,
 				D650C89E284B98CB007C5FB2 /* Assets.xcassets */,
-				D650C8A0284B98CB007C5FB2 /* LaunchScreen.storyboard */,
+				D64AB2BD2890400E00477E1A /* help1.jpg */,
+				D64AB2BE2890400E00477E1A /* help2.PNG */,
+				D6FF451B2891463500143221 /* iphone6_splash.png */,
+				D64AB2BB28902E2E00477E1A /* degrassi.regular.ttf */,
+				D6B6CA18288C1F990011CE3B /* Ronde.otf */,
 				D650C8A3284B98CB007C5FB2 /* Info.plist */,
+				4F8382812A67B9ED002C10EA /* GoogleService-Info.plist */,
 			);
 			path = apparelfit;
 			sourceTree = "<group>";
@@ -134,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D650C8BC284B98CB007C5FB2 /* Build configuration list for PBXNativeTarget "apparelfit" */;
 			buildPhases = (
+				1A13161A653BEEFE1C1B9383 /* [CP] Check Pods Manifest.lock */,
 				D650C88E284B98CA007C5FB2 /* Sources */,
 				D650C88F284B98CA007C5FB2 /* Frameworks */,
 				D650C890284B98CA007C5FB2 /* Resources */,
+				3CC81FCE0E88336DEC46F6DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +377,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D650C8A2284B98CB007C5FB2 /* LaunchScreen.storyboard in Resources */,
+				D6B6CA19288C235D0011CE3B /* Ronde.otf in Resources */,
+				D64AB2BC28902E2F00477E1A /* degrassi.regular.ttf in Resources */,
+				D6035A13285385FE009100AF /* ListTableViewCell.xib in Resources */,
+				D64AB2BF2890400F00477E1A /* help1.jpg in Resources */,
+				D69339F728840329008A5E75 /* TestPantsCollectionViewCell.xib in Resources */,
+				4F8382822A67B9EE002C10EA /* GoogleService-Info.plist in Resources */,
 				D650C89F284B98CB007C5FB2 /* Assets.xcassets in Resources */,
+				D6FF451C2891463500143221 /* iphone6_splash.png in Resources */,
+				D64AB2C02890400F00477E1A /* help2.PNG in Resources */,
 				D650C89D284B98CA007C5FB2 /* Main.storyboard in Resources */,
+				D6FF451A289145B200143221 /* Launch Screen.storyboard in Resources */,
+				D63C4C1B2885BED800CE0478 /* TestShirtCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +408,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A13161A653BEEFE1C1B9383 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apparelfit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CC81FCE0E88336DEC46F6DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apparelfit/Pods-apparelfit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apparelfit/Pods-apparelfit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-apparelfit/Pods-apparelfit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D650C88E284B98CA007C5FB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D650C89A284B98CA007C5FB2 /* ViewController.swift in Sources */,
+				D620BBCA2855C65900B15385 /* FirstTimeViewController.swift in Sources */,
+				D650C89A284B98CA007C5FB2 /* ListTableViewController.swift in Sources */,
+				4F39D1E92A83931B00707B50 /* ItemCell.swift in Sources */,
+				D6A154972882E29D002DBA36 /* flow.swift in Sources */,
+				D6B6CA1B288C2F2F0011CE3B /* helpViewController.swift in Sources */,
+				4F7AA9012A714DBC005A0533 /* ShopController.swift in Sources */,
 				D650C896284B98CA007C5FB2 /* AppDelegate.swift in Sources */,
+				D6A154992882EE81002DBA36 /* ImageUrl.swift in Sources */,
+				4F7AA9032A714EED005A0533 /* ProfileController.swift in Sources */,
+				4F7AA8FD2A71150C005A0533 /* MainTabController.swift in Sources */,
+				4F7AA8FF2A71186E005A0533 /* FittingController.swift in Sources */,
+				D6035A1528539F02009100AF /* MainScreenViewController.swift in Sources */,
+				D69339F628840329008A5E75 /* TestPantsCollectionViewCell.swift in Sources */,
+				D63C4C1A2885BED800CE0478 /* TestShirtCollectionViewCell.swift in Sources */,
+				D625266C28758EDD008CB783 /* CGRectExtension.swift in Sources */,
+				4F7AA9052A71552A005A0533 /* Extensions.swift in Sources */,
 				D650C898284B98CA007C5FB2 /* SceneDelegate.swift in Sources */,
+				D6035A12285385FE009100AF /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +515,6 @@
 				D650C89C284B98CA007C5FB2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D650C8A0284B98CB007C5FB2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D650C8A1284B98CB007C5FB2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,16 +636,19 @@
 		};
 		D650C8BD284B98CB007C5FB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C61D3CABDFFB2FCE12E1BD /* Pods-apparelfit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X29JZB37SA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = apparelfit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,22 +660,25 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D650C8BE284B98CB007C5FB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F4BD0438886A9A7B84DC76 /* Pods-apparelfit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X29JZB37SA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = apparelfit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,7 +690,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
